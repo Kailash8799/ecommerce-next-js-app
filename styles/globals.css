@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media (min-width:589px) and (max-width:768px) {
+
+    .tshirtcart {
+        width: 250px !important;
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+}
+
+@media (max-width:589px) and (min-width:488px) {
+
+    .tshirtcart {
+        width: 200px !important;
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+}
+
+@media (max-width:488px) and (min-width:450px) {
+
+    .tshirtcart {
+        width: 180px !important;
+        margin-left: 2px !important;
+        margin-right: 3px !important;
+    }
+}
+
+/* =================================================================== */
