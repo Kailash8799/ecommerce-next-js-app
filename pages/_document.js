@@ -5,7 +5,7 @@ export default function Document() {
     <Html className='overflow-x-hidden'>
       <Head />
       <body>
-        <Main />
+        <Main/>
         <NextScript />
       </body>
     </Html>
